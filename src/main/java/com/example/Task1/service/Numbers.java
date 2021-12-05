@@ -8,7 +8,8 @@ import java.util.Scanner;
 
 public class Numbers {
     public static ArrayList<Integer> getNumbers() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("D:\\Task1\\src\\main\\resources\\input.txt"));
+        String path="D:\\Task1\\src\\main\\resources\\input.txt";
+        Scanner scanner = new Scanner(new File(path));
         ArrayList<Integer> list=new ArrayList<>();
         while(scanner.hasNextInt()){
             list.add(scanner.nextInt());
