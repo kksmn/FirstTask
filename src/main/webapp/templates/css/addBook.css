@@ -1,0 +1,21 @@
+input:invalid {
+    border: 2px solid red;
+}
+input:valid {
+    border: 2px solid black;
+}
+.add
+{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    border: 1px dashed grey;
+    margin: 10px 0;
+}
+
+.add:hover
+{
+    cursor: pointer;
+    background-color: #360581;
+}
